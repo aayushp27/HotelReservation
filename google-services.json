@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "656472328732",
+    "project_id": "hotelreservation-bdf6f",
+    "storage_bucket": "hotelreservation-bdf6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656472328732:android:d987606da6ad20c0a4edd9",
+        "android_client_info": {
+          "package_name": "com.example.hotelreservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656472328732-66uce0hahg7bpkmht0ubcs54g34drqih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUAASbLuZemOZcDsQSPw9MqvLrY5tVcrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656472328732-66uce0hahg7bpkmht0ubcs54g34drqih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656472328732:android:4d75894683d55912a4edd9",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656472328732-66uce0hahg7bpkmht0ubcs54g34drqih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUAASbLuZemOZcDsQSPw9MqvLrY5tVcrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656472328732-66uce0hahg7bpkmht0ubcs54g34drqih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
