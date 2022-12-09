@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="380dp"
+    android:layout_height="120dp"
+    app:cardCornerRadius="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="10dp"
+    android:elevation="15dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/relative1">
+
+            <TextView
+                android:id="@+id/txtFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Guest Name: "
+                android:textSize="11dp"/>
+
+            <TextView
+                android:id="@+id/full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="name "
+                android:layout_toEndOf="@id/txtFullName"
+                android:textSize="11dp"/>
+
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtFullName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Booking Status: "
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/hotel_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/full_name"
+                android:layout_toEndOf="@+id/txtStatus"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Status"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txtNumberofRooms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtStatus"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Number of Rooms Booked: "
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/number_of_rooms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtStatus"
+                android:layout_toEndOf="@+id/txtNumberofRooms"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Rooms"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txtTotalCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNumberofRooms"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Cost: "
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/dollarsign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNumberofRooms"
+                android:layout_toEndOf="@+id/txtTotalCost"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="$"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/totalcost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNumberofRooms"
+                android:layout_toEndOf="@+id/dollarsign"
+                android:layout_marginTop="5dp"
+                android:text="Total Cost"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txtFromDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTotalCost"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="From: "
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/date_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTotalCost"
+                android:layout_toEndOf="@+id/txtFromDate"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Date"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txtToDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To: "
+                android:textSize="10dp"
+                android:layout_below="@id/txtTotalCost"
+                android:layout_marginLeft="15dp"
+                android:layout_toEndOf="@id/date_1"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/date_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTotalCost"
+                android:layout_toEndOf="@+id/txtToDate"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Date"
+                android:textSize="10dp" />
+
+
+
+        </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

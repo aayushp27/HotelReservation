@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="380dp"
+    android:layout_height="120dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="15dp"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:id="@+id/hotel_image"
+            android:src="@drawable/ic_launcher_background"
+            />
+
+
+        <TextView
+            android:id="@+id/hotel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:text="Hotel Name"
+            android:textStyle="bold"
+            android:textSize="12dp"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/hotel_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_below="@+id/hotel_name"
+            android:layout_marginTop="15dp"
+            android:textSize="10dp"
+            android:text="Location" />
+
+
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/hotel_price"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Room Per Night"
+                android:textColor="@color/black"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/hotel_price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="-15dp"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:text="Price"
+                android:textColor="@color/black"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:id="@+id/txtdollarsign"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-22dp"
+                android:layout_marginBottom="-14dp"
+                android:layout_toStartOf="@id/hotel_price"
+                android:gravity="center"
+                android:text="$"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
