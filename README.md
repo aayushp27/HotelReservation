@@ -24,7 +24,7 @@ Firebase: Utilized for real-time data storage, authentication, and efficient dat
 Setup
 
 Clone the Repository:
-bash Copy code: git clone https://github.com/aayushp27/hotel-reservation-system.git
+bash Copy code: git clone [https://github.com/aayushp27/hotel-reservation-system.git](https://github.com/aayushp27/HotelReservation)
 
 Open in Android Studio:
 Open Android Studio.
